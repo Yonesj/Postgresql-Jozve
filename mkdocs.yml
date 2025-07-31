@@ -1,0 +1,36 @@
+site_name: جزوه PostgreSQL
+site_description: یک راهنمای کامل و قدم به قدم برای یادگیری پایگاه داده قدرتمند PostgreSQL است که بر اساس دوره Mastering Postgres توسط آرون فرانسیس (Aaron Francis) تهیه و بومی‌سازی شده است.
+site_author: یونس جمشیدی
+
+theme:
+  name: material
+  language: fa
+  direction: rtl
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: تغییر به حالت تاریک
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: تغییر به حالت روشن
+  features:
+    - navigation.tabs
+    - content.code.copy
+  custom_dir: overrides
+
+extra_css:
+  - styles/font_faces.css
+  - styles/general.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+
+nav:
+  - "صفحه اصلی": "index.md"
