@@ -72,3 +72,8 @@ nav:
       - "ایندکس‌های جزئی": "indexing/050_partial_indexes.md"
       - "ترتیب‌دهی ایندکس‌ها": "indexing/051_index_ordering.md"
       - "ترتیب‌دهی مقادیر Null در ایندکس‌ها": "indexing/052_ordering_nulls_in_indexes.md"
+  - "ایندکس‌گذاری پیشرفته":
+      - "ایندکس‌های تابعی": "advanced_indexing/053_functional_indexes.md"
+      - "ایندکس‌های تکراری": "advanced_indexing/054_duplicate_indexes.md"
+      - "ایندکس‌های هش": "advanced_indexing/055_hash_indexes.md"
+      - "نام‌گذاری ایندکس‌ها": "advanced_indexing/056_naming_indexes.md"
