@@ -18,6 +18,12 @@ theme:
   features:
     - navigation.tabs
     - content.code.copy
+    - content.code.annotate
+    - navigation.footer
+    - navigation.tracking
+    - navigation.instant
+    - navigation.top
+    - navigation.expand
   custom_dir: overrides
 
 extra_css:
@@ -34,3 +40,35 @@ markdown_extensions:
 
 nav:
   - "صفحه اصلی": "index.md"
+  - "انواع داده پیشرفته":
+      - "بازه زمانی (Intervals)": "advanced_data_types/023_intervals.md"
+      - "نوع داده Serial": "advanced_data_types/024_serial_type.md"
+      - "دنباله‌ها (Sequences)": "advanced_data_types/025_sequences.md"
+      - "ستون‌های Identity": "advanced_data_types/026_identity.md"
+      - "آدرس‌های شبکه و MAC": "advanced_data_types/027_network_and_mac_addresses.md"
+      - "نوع داده JSON": "advanced_data_types/028_json.md"
+      - "آرایه‌ها (Arrays)": "advanced_data_types/029_arrays.md"
+      - "ستون‌های تولید شده (Generated)": "advanced_data_types/030_generated_columns.md"
+      - "انواع داده جستجوی متن": "advanced_data_types/031_text_search_types.md"
+      - "رشته‌های بیتی (Bit String)": "advanced_data_types/032_bit_string.md"
+      - "انواع داده بازه‌ای (Ranges)": "advanced_data_types/033_ranges.md"
+      - "انواع داده ترکیبی (Composite)": "advanced_data_types/034_composite_types.md"
+      - "کار با مقادیر Null": "advanced_data_types/035_nulls.md"
+      - "قید یکتایی (Unique)": "advanced_data_types/036_unique_constraints.md"
+      - "قید عدم تداخل (Exclusion)": "advanced_data_types/037_exclusion_constraints.md"
+      - "قید کلید خارجی (Foreign Key)": "advanced_data_types/038_foreign_key_constraints.md"
+  - "ایندکس‌گذاری":
+      - "مقدمه‌ای بر ایندکس‌ها": "indexing/039_introduction_to_indexes.md"
+      - "هیپ‌ها و CTIDها": "indexing/040_heaps_and_ctids.md"
+      - "نمای کلی B-Tree": "indexing/041_b_tree_overview.md"
+      - "کلیدهای اصلی در مقابل ایندکس‌های ثانویه": "indexing/042_primary_keys_vs_secondary_indexes.md"
+      - "انواع کلید اصلی": "indexing/043_primary_key_types.md"
+      - "کجا ایندکس اضافه کنیم؟": "indexing/044_where_to_add_indexes.md"
+      - "گزینش‌پذیری ایندکس": "indexing/045_index_selectivity.md"
+      - "ایندکس‌های ترکیبی": "indexing/046_composite_indexes.md"
+      - "بازه‌های ترکیبی": "indexing/047_composite_range.md"
+      - "ترکیب چندین ایندکس": "indexing/048_combining_multiple_indexes.md"
+      - "ایندکس‌های پوششی": "indexing/049_covering_indexes.md"
+      - "ایندکس‌های جزئی": "indexing/050_partial_indexes.md"
+      - "ترتیب‌دهی ایندکس‌ها": "indexing/051_index_ordering.md"
+      - "ترتیب‌دهی مقادیر Null در ایندکس‌ها": "indexing/052_ordering_nulls_in_indexes.md"
