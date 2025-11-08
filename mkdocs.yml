@@ -77,3 +77,9 @@ nav:
       - "ایندکس‌های تکراری": "advanced_indexing/054_duplicate_indexes.md"
       - "ایندکس‌های هش": "advanced_indexing/055_hash_indexes.md"
       - "نام‌گذاری ایندکس‌ها": "advanced_indexing/056_naming_indexes.md"
+  - "درک طرح‌های اجرایی":
+      - "مقدمه‌ای بر Explain": "understanding_query_plans/057_introduction_to_explain.md"
+      - "ساختار Explain": "understanding_query_plans/058_explain_structure.md"
+      - "گره‌های اسکن": "understanding_query_plans/059_scan_nodes.md"
+      - "هزینه‌ها و ردیف‌ها": "understanding_query_plans/060_costs_and_rows.md"
+      - "دستور Explain Analyze": "understanding_query_plans/061_explain_analyze.md"
