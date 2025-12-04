@@ -113,3 +113,11 @@ nav:
       - "دستور Upsert": "advanced_sql/087_upsert.md"
       - "کلمه کلیدی RETURNING": "advanced_sql/088_returning_keyword.md"
       - "ترکیب COALESCE و ستون تولیدی": "advanced_sql/089_coalesce_generated_column.md"
+  - "Full-Text Search":
+      - "مقدمه‌ای بر full-text search": "full_text_search/090_introduction_to_full_text_search.md"
+      - "جستجو با LIKE": "full_text_search/091_searching_with_like.md"
+      - "وکتورها، کوئری‌ها و رتبه‌ها": "full_text_search/092_vectors_queries_and_ranks.md"
+      - "تابع websearch": "full_text_search/093_websearch.md"
+      - "رتبه‌بندی نتایج": "full_text_search/094_ranking.md"
+      - "ایندکس‌گذاری full-text search": "full_text_search/095_indexing_full_text_search.md"
+      - "برجسته‌سازی نتایج (Highlighting)": "full_text_search/096_highlighting.md"
