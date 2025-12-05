@@ -34,6 +34,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.highlight:
       anchor_linenums: true
       pygments_lang_class: true
@@ -121,3 +123,11 @@ nav:
       - "رتبه‌بندی نتایج": "full_text_search/094_ranking.md"
       - "ایندکس‌گذاری full-text search": "full_text_search/095_indexing_full_text_search.md"
       - "برجسته‌سازی نتایج (Highlighting)": "full_text_search/096_highlighting.md"
+  - "بردارها (Vectors)":
+      - "مقدمه‌ای بر pgvector": "vectors/108_intro_to_pgvector.md"
+      - "ستون‌های Vector Embedding": "vectors/109_vector_embedding_columns.md"
+      - "پیدا کردن مقالات مرتبط": "vectors/110_find_related_articles.md"
+      - "دستور Upsert برای Vector Embedding": "vectors/111_upsert_vector_embedding.md"
+      - "جستجوی معنایی (Semantic Search)": "vectors/112_semantic_search.md"
+      - "سایر اپراتورها": "vectors/113_other_operators.md"
+      - "ایندکس‌های برداری": "vectors/114_vector_indexes.md"
